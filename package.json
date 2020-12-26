@@ -1,0 +1,25 @@
+{
+  "name": "c4rl0sbr4v0.me",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Freelance full stack developer",
+  "keywords": [
+    "frontity",
+    "freelance",
+    "javascript"
+  ],
+  "scripts": {
+    "dev": "frontity dev",
+    "build": "frontity build",
+    "serve": "frontity serve"
+  },
+  "prettier": {},
+  "dependencies": {
+    "@frontity/core": "^1.6.1",
+    "@frontity/html2react": "^1.3.3",
+    "@frontity/tiny-router": "^1.2.0",
+    "@frontity/wp-source": "^1.7.1",
+    "c4rl0sbr4v0-theme": "./packages/c4rl0sbr4v0-theme",
+    "frontity": "^1.7.0"
+  }
+}
