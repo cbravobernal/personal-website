@@ -4,7 +4,7 @@ const settings = {
     frontity: {
       url: "https://carlosbravo.me/",
       title: "Carlos Bravo",
-      description: "Full Stack Developer",
+      description: "WordPress Developer @ Automattic",
     },
   },
   packages: [
@@ -13,9 +13,9 @@ const settings = {
       state: {
         theme: {
           menu: [
-            ["Artículos", "/"],
-            ["Autospam", "/autospam/"],
-            ["Videojuegos", "https://www.backloggd.com/u/Ch0rl0/games/"],
+            ["Posts", "/"],
+            ["About", "https://github.com/c4rl0sbr4v0"],
+            ["Videogames", "https://www.backloggd.com/u/Ch0rl0/games/"],
           ],
           featured: {
             showOnList: false,
