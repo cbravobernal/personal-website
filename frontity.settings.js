@@ -16,6 +16,7 @@ const settings = {
             ["Posts", "/"],
             ["About", "https://github.com/c4rl0sbr4v0"],
             ["Videogames", "https://www.backloggd.com/u/Ch0rl0/games/"],
+            ["Work with Us", "https://automattic.com/work-with-us/"],
           ],
           featured: {
             showOnList: false,
