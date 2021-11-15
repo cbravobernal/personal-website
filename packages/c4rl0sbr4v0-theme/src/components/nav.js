@@ -15,7 +15,11 @@ const Nav = ({ state }) => (
       return (
         <NavItem key={name}>
           {/* If link url is the current page, add `aria-current` for a11y */}
-          <Link link={link} aria-current={isCurrentPage ? "page" : undefined}>
+          <Link
+            target={name === "Posts" ? "_self" : "_blank"}
+            link={link}
+            aria-current={isCurrentPage ? "page" : undefined}
+          >
             {name}
           </Link>
         </NavItem>
